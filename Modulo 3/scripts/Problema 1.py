@@ -30,7 +30,7 @@ def tipo_tarjeta(ccn,bol):
                 return "AMEX"
             elif ccn[1]=='0':
                 return "DINNERS CLUB"
-            elif ccn[0] == '5':
+            elif ccn[1] == '5':
                 return "JCB"
 
         elif ccn[0] == '6':
